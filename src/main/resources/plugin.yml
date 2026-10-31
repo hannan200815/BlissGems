@@ -1,18 +1,18 @@
-name: PotatoSMP
-version: '1.0.0'
-main: PotatoSMP
+name: BlissGems
+version: '4.2.0'
+main: dev.xoperr.blissgems.BlissGems
 api-version: '1.21'
-description: Potato SMP - Potato of Life, Marked players, and the Warrior's Blade.
-authors: [PotatoSMP]
+description: Bliss SMP Gem System
+author: magicc
+website: https://xoperr.dev
+
 commands:
-  potato:
-    description: Potato SMP command
-    usage: /potato <help|menu|status|blade|give|reload>
-    aliases: [potatosmp]
+  bliss:
+    description: Main BlissGems command
+    usage: /<command> [subcommand]
+    aliases: [gems, bg]
+
 permissions:
-  potato.use:
-    description: Use /potato help, menu, and status.
-    default: true
-  potato.admin:
-    description: Give items, reset the blade, and reload config.
+  blissgems.admin:
+    description: Admin commands (give, reload)
     default: op
